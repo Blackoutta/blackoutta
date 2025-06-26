@@ -9,14 +9,14 @@
 
 | Repository | Stars | PR Count | Last PR |
 |-----|:---:|:---:|:---:|
-| [langgenius/dify](https://github.com/langgenius/dify) | 104476 | 233 | 2025-06-20 |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 86568 | 2 | 2022-08-10 |
-| [django/django](https://github.com/django/django) | 84000 | 2 | 2022-05-23 |
-| [pallets/flask](https://github.com/pallets/flask) | 69814 | 1 | 2022-08-22 |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 57880 | 5 | 2025-03-05 |
-| [astaxie/build-web-ap...](https://github.com/astaxie/build-web-application-with-golang) | 43652 | 2 | 2019-09-16 |
-| [LeCoupa/awesome-chea...](https://github.com/LeCoupa/awesome-cheatsheets) | 42825 | 1 | 2022-05-09 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 35230 | 1 | 2025-01-06 |
-| [wangzheng0822/algo](https://github.com/wangzheng0822/algo) | 23103 | 1 | 2018-12-25 |
-| [lewagon/dotfiles](https://github.com/lewagon/dotfiles) | 21228 | 1 | 2020-07-02 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 104644 | 233 | 2025-06-20 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 86605 | 2 | 2022-08-10 |
+| [django/django](https://github.com/django/django) | 84009 | 2 | 2022-05-23 |
+| [pallets/flask](https://github.com/pallets/flask) | 69828 | 1 | 2022-08-22 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 58088 | 5 | 2025-03-05 |
+| [astaxie/build-web-ap...](https://github.com/astaxie/build-web-application-with-golang) | 43656 | 2 | 2019-09-16 |
+| [LeCoupa/awesome-chea...](https://github.com/LeCoupa/awesome-cheatsheets) | 42831 | 1 | 2022-05-09 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 35365 | 1 | 2025-01-06 |
+| [wangzheng0822/algo](https://github.com/wangzheng0822/algo) | 23104 | 1 | 2018-12-25 |
+| [lewagon/dotfiles](https://github.com/lewagon/dotfiles) | 21229 | 1 | 2020-07-02 |
 
