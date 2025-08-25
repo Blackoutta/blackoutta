@@ -1,10 +1,14 @@
 import os
 from github import Github
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def update_readme_with_pr_stats():
     g = Github(os.getenv('GITHUB_TOKEN'))
     user = g.get_user()
+    print(user.login)
 
     query = f"is:pr author:{user.login} -user:{user.login}"
     prs = g.search_issues(query)
@@ -30,7 +34,7 @@ def update_readme_with_pr_stats():
     pr_table += "| Repository | Stars | PR Count | Last PR |\n"
     pr_table += "|-----|:---:|:---:|:---:|\n"
     
-    for repo, stats in list(sorted_stats.items())[1:11]:
+    for repo, stats in list(sorted_stats.items())[:10]:
         repo_display = repo[:20] + '...' if len(repo) > 20 else repo
         pr_table += f"| [{repo_display}](https://github.com/{repo}) | {stats['stars']} | {stats['count']} | {stats['last_pr_date'].strftime('%Y-%m-%d')} |\n"
     
