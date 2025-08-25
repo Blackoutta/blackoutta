@@ -8,6 +8,8 @@
 
 | Repository | Stars | PR Count | Last PR |
 |-----|:---:|:---:|:---:|
-| [google-gemini/gemini...](https://github.com/google-gemini/gemini-cli) | 71630 | 2 | 2025-08-22 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 111968 | 1 | 2025-08-13 |
+| [google-gemini/gemini...](https://github.com/google-gemini/gemini-cli) | 71670 | 2 | 2025-08-22 |
 | [langgenius/dify-plug...](https://github.com/langgenius/dify-plugin-daemon) | 302 | 2 | 2025-07-14 |
+| [Blackoutta/ai-engine...](https://github.com/Blackoutta/ai-engineer-training) | 28 | 4 | 2025-08-12 |
 

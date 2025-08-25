@@ -10,7 +10,7 @@ def update_readme_with_pr_stats():
     user = g.get_user()
     print(user.login)
 
-    query = f"is:pr author:{user.login} -user:{user.login}"
+    query = f"is:pr involves:{user.login}"
     prs = g.search_issues(query)
     
     pr_stats = {}
