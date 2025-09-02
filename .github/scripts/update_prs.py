@@ -30,11 +30,11 @@ def update_readme_with_pr_stats():
     
     sorted_stats = dict(sorted(pr_stats.items(), key=lambda x: x[1]['stars'], reverse=True))
     
-    pr_table = "## 🌟 Top 10 Most Popular Repos I've Contributed To\n\n"
+    pr_table = "## 🌟 Top 5 Most Popular Repos I've Contributed To\n\n"
     pr_table += "| Repository | Stars | PR Count | Last PR |\n"
     pr_table += "|-----|:---:|:---:|:---:|\n"
     
-    for repo, stats in list(sorted_stats.items())[:10]:
+    for repo, stats in list(sorted_stats.items())[:5]:
         repo_display = repo[:20] + '...' if len(repo) > 20 else repo
         pr_table += f"| [{repo_display}](https://github.com/{repo}) | {stats['stars']} | {stats['count']} | {stats['last_pr_date'].strftime('%Y-%m-%d')} |\n"
     
@@ -42,7 +42,7 @@ def update_readme_with_pr_stats():
     with open('README.md', 'r', encoding='utf-8') as f:
         content = f.read()
     
-    pr_section_pattern = r'## 🌟 Top 10 Most Popular Repos[\s\S]*?(?=##|$)'
+    pr_section_pattern = r'## 🌟 Top 5 Most Popular Repos[\s\S]*?(?=##|$)'
     if re.search(pr_section_pattern, content):
         content = re.sub(pr_section_pattern, pr_table, content)
     else:
