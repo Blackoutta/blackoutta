@@ -1,9 +1,6 @@
 import os
 from github import Github
 import re
-from dotenv import load_dotenv
-
-load_dotenv()
 
 def update_readme_with_pr_stats():
     g = Github(os.getenv('GITHUB_TOKEN'))
