@@ -8,9 +8,9 @@
 
 | Repository | Stars | PR Count | Last PR |
 |-----|:---:|:---:|:---:|
-| [langgenius/dify](https://github.com/langgenius/dify) | 143587 | 20 | 2026-05-28 |
-| [google-gemini/gemini...](https://github.com/google-gemini/gemini-cli) | 104866 | 2 | 2025-08-22 |
-| [langgenius/dify-plug...](https://github.com/langgenius/dify-plugin-daemon) | 432 | 3 | 2026-04-14 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 143753 | 20 | 2026-05-28 |
+| [google-gemini/gemini...](https://github.com/google-gemini/gemini-cli) | 104908 | 2 | 2025-08-22 |
+| [langgenius/dify-plug...](https://github.com/langgenius/dify-plugin-daemon) | 433 | 3 | 2026-04-14 |
+| [llm-d/llm-d-inferenc...](https://github.com/llm-d/llm-d-inference-sim) | 142 | 1 | 2025-09-02 |
 | [langgenius/dify-plug...](https://github.com/langgenius/dify-plugin-sdks) | 140 | 1 | 2026-02-27 |
-| [llm-d/llm-d-inferenc...](https://github.com/llm-d/llm-d-inference-sim) | 140 | 1 | 2025-09-02 |
 
